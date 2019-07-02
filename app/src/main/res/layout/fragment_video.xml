@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/passenger_back"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:id="@+id/videovv">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="乘客指引系统"
+            android:textSize="25sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/white" />
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="点击视频区域开启《乘客查询服务》！                 点击视频区域开启《乘客查询服务》！                 点击视频区域开启《乘客查询服务》！                 点击视频区域开启《乘客查询服务》！"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            />
+</LinearLayout>
