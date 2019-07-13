@@ -41,11 +41,11 @@ public class BusMesageFragment extends Fragment {
 
     private void inintView(View view) {
         List imgs=new ArrayList<>();
-        imgs.add(getStringFromDrawableRes(getActivity(),R.drawable.bus_chengxiang));
+        imgs.add(getStringFromDrawableRes(getActivity(),R.drawable.bus_chengxiang1));
+        imgs.add(getStringFromDrawableRes(getActivity(),R.drawable.bus_chengxiang2));
         imgs.add(getStringFromDrawableRes(getActivity(),R.drawable.bus_line_1));
         imgs.add(getStringFromDrawableRes(getActivity(),R.drawable.bus_line_2 ));
         imgs.add(getStringFromDrawableRes(getActivity(),R.drawable.bus_line_3));
-
         banner= (Banner) view.findViewById(R.id.banner);
         //设置banner样式
         //设置图片加载器

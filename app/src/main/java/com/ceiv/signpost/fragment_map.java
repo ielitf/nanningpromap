@@ -154,13 +154,13 @@ public class fragment_map extends Fragment {
         });
 
         //绘制标记点marker
-        LatLng latLng = new LatLng(39.906901, 116.397972);
-        final Marker marker1 = aMap.addMarker(new MarkerOptions().position(new LatLng(39.906901, 116.397972)).title("标记1").snippet(StationData.busMessage[0]));
-        marker1.showInfoWindow();
+//        LatLng latLng = new LatLng(39.906901, 116.397972);
+//        final Marker marker1 = aMap.addMarker(new MarkerOptions().position(new LatLng(39.906901, 116.397972)).title("标记1").snippet(StationData.busMessage[0]));
+//        marker1.showInfoWindow();
 
         //绘制标记线
         List<LatLng> latLngs = new ArrayList<LatLng>();
-        latLngs.add(new LatLng(39.906901, 116.397972));//北京
+//        latLngs.add(new LatLng(39.906901, 116.397972));//北京
 
         latLngs.add(new LatLng(35.124259, 112.923045));//西沁阳---
         latLngs.add(new LatLng(35.128675, 112.923928));//拐点
